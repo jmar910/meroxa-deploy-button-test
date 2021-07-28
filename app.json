@@ -1,0 +1,12 @@
+{
+  "name": "Meroxa Button Deploy",
+  "description": "",
+  "website": "",
+  "success_url": "",
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "env": {
+    "MEROXA_AUTH_TOKEN": {
+      "description": "Your meroxa auth token"
+    }
+  }
+}
